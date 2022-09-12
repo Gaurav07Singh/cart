@@ -35,17 +35,22 @@
     }
     decreaseQuantity = () =>
     {
+        const{qty} = this.state;
+        if(qty == 0) 
+        {
+            return;
+        }
         // this.state.qty += 1;
        // console.log('this', this.state);
         // setState form 1
-        this.setState({
-            
-            qty: this.state.qty - 1
-            
+        this.setState
+        ({
+             qty: this.state.qty - 1
         })
     }
     render()
     {
+        console.log('render');
         const {price , title, qty} = this.state;
         return (
             <div className="cart-item">
