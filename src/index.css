@@ -18,7 +18,8 @@ body {
 .cart-tiem-actions {
   margin-top:20px;
 }
-.actions-icons {
+.action-icons {
+  padding:5px;
   height:25px;
   width:25px;
   margin-right:10px;
