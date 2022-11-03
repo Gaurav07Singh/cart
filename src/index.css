@@ -28,3 +28,9 @@ body {
 .action-icons:hover {
   cursor:pointer;
 }
+
+.cart-item{
+  margin-left: 20px;
+  display:flex;
+  flex-direction: column;
+}

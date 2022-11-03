@@ -14,6 +14,8 @@
        // this.increaseQuantity = this.increaseQuantity.bind(this);
        // or use arrow functions
     }
+
+    
     increaseQuantity = () =>
     {
         // this.state.qty += 1;
